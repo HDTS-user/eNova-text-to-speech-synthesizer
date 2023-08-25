@@ -1,0 +1,34 @@
+<speak>
+<lexicon xml:id="test" alphabet="ipa">
+<lexeme>
+        <grapheme> Benigni </grapheme>
+        <phoneme> bɛˈniːnji</phoneme>
+    </lexeme>
+</lexicon>
+<lookup ref="test">
+<s><sub alias="by the way">BTW</sub> we will be there probably at tomorrow morning. 
+      <break time="2s"/>Could you help leave a message to Robert Benigni for me?</s>
+<s>The word <say-as interpret-as="characters">read</say-as> may be interpreted
+    as either the present simple form <w role="gruut:VB">read</w>,
+    or the past participle form <w role="gruut:VBD">read</w></s>
+</lookup>
+
+
+  <voice name="harvard">
+    <s>
+      The current voice can be changed!
+    </s>
+  </voice>
+
+  <voice name="northern_english_male">
+    <s>For the whole input line and each word, the text property contains the processed input text with normalized whitespace.</s>
+  </voice>
+<p>
+Here is a number spoken as a cardinal number:
+    <say-as interpret-as="number" format="cardinal">12345</say-as>.
+    Here is a word spelled out: <say-as interpret-as="spell-out">hello</say-as>.
+    <!--Today is <say-as interpret-as="date" >13</say-as><say-as interpret-as="number" format="y">2023</say-as> -->
+</p>
+
+</speak>
+
